@@ -30,7 +30,6 @@ flexGrow 1
 flexShrink 1
 marginTop 30
 AddressSection Horizontal
-alignItems center
 flexBasis auto
 flexGrow 1
 flexShrink 1
