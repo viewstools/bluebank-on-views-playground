@@ -2,5 +2,5 @@ CustomerID Horizontal
 alignItems baseline
 minHeight 20
 DataFieldSmall
-label CustomerID
+label Customer ID
 value <customerID 1000000000001
