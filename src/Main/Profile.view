@@ -21,6 +21,7 @@ Horizontal
 flexBasis auto
 flexGrow 1
 flexShrink 1
+marginTop 10
 LocationSvg
 width 30
 height 30
