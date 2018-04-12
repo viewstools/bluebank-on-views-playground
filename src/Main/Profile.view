@@ -29,6 +29,7 @@ fontSize 14
 fontWeight 300
 text <id 10000000001
 marginTop 10
+marginLeft 10
 
 
 AddressSection Vertical
