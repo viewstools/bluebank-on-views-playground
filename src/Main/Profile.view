@@ -24,7 +24,7 @@ flexShrink 1
 
 SectionName
 
-AddressSec Vertical
+AddressSect Vertical
 flexBasis auto
 flexGrow 1
 flexShrink 1
