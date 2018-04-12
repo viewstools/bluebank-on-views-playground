@@ -7,7 +7,7 @@ fontFamily < Montserrat
 fontSize < 10
 fontWeight < 400
 textTransform < uppercase
-widthLabel 10
+widthLabel 120
 
 ValueSmall
 color < #323232
