@@ -1,2 +1,10 @@
 ValueLarge Vertical
 marginLeft < 0
+Text
+color < #323232
+fontFamily Montserrat
+fontSize 24
+fontWeight 400
+marginLeft < 10
+marginTop < 5
+text <givenName Summer
