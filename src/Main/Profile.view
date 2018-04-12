@@ -34,17 +34,17 @@ flexBasis auto
 flexGrow 1
 flexShrink 1
 alignItems flex-end
+ValueSmall
+value <address1 1 Views Tools Rd
+marginLeft 5
+marginTop 5
+
 LocationSvg
 width 30
 height 30
 
 SectionName
 
-
-ValueSmall
-value <address1 1 Views Tools Rd
-marginLeft 5
-marginTop 5
 
 ValueSmall
 value <town Dublin
