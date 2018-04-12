@@ -1,0 +1,6 @@
+IBan Horizontal
+alignItems baseline
+minHeight 20
+DataFieldSmall
+label CustomerID
+value 100000000000
