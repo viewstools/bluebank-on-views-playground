@@ -5,6 +5,5 @@ color < #323232
 fontFamily Montserrat
 fontSize 24
 fontWeight 300
-marginLeft < 10
 marginTop < 5
 text <value Summer
