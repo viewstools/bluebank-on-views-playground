@@ -19,7 +19,7 @@ AccountType
 Id
 
 Text
-text <sortCode 985130
+text < 985130
 
 Transactions
 accountId <id id
