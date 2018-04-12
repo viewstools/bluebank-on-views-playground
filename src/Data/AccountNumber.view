@@ -1,6 +1,5 @@
 AccountNumber Horizontal
 alignItems baseline
-minHeight 20
 DataFieldSmall
 label Account Number
 value <accountNumber 555500005555
