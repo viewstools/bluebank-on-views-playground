@@ -1,5 +1,6 @@
 Account Vertical
 marginTop < 0
+paddingLeft 10
 Vertical
 flexBasis auto
 flexGrow 1
@@ -31,4 +32,4 @@ Id
 
 
 Transactions
-accountId <id
+accountId <id id
