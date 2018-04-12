@@ -17,17 +17,32 @@ value <familyName Winters
 marginTop 0
 color #ffffff
 
-
 Vertical
 flexBasis auto
 flexGrow 1
 flexShrink 1
 paddingLeft 30
-paddingRight 30
 paddingTop 15
-AddressSection Vertical
-flexBasis auto
-flexGrow 1
-flexShrink 1
+ValueSmall
+value <mobilePhone +353 555 000 555
+
+ValueSmall
+value <address1 1 Views Tools Rd
+marginTop 15
+
+ValueSmall
+value <town Dublin
+
+ValueSmall
+value <county Co. Dublin
+
+ValueSmall
+value <postCode VT101
+
+ValueSmall
+value <country Ireland
+
+
+
 Account
 customerId <id id
