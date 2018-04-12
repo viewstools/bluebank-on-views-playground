@@ -18,8 +18,5 @@ AccountType
 
 Id
 
-Text
-text < 985130
-
 Transactions
 accountId <id id
