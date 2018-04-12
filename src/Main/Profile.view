@@ -53,6 +53,13 @@ value <country Ireland
 marginLeft 0
 
 
+Vertical
+alignItems center
+flexBasis auto
+flexGrow 1
+flexShrink 1
+justifyContent center
+
 
 Account
 customerId <id id
