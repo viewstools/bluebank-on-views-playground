@@ -1,38 +1,51 @@
 Profile Vertical
-paddingTop 30
-paddingLeft 30
-paddingRight 30
 Vertical
-alignItems center
 flexBasis auto
 flexGrow 1
 flexShrink 1
-justifyContent center
-NameSurname Horizontal
-flexBasis auto
-flexGrow 1
-flexShrink 1
+backgroundColor #ffaa00
 ValueLarge
 value <givenName Summer
+marginLeft 0
 
 ValueLarge
 value <familyName Winters
-marginLeft 10
+marginTop 0
 
 
-Text
-text <id 100000000001
-fontFamily Montserrat
-fontSize 10
-color #c5c5c5
-
-CustomerDetails Horizontal
+Vertical
 flexBasis auto
 flexGrow 1
 flexShrink 1
-marginTop 30
-AddressSection Horizontal
-width 300
+paddingTop 30
+paddingLeft 30
+paddingRight 30
+Text
+color #c5c5c5
+fontFamily Montserrat
+fontSize 14
+fontWeight 300
+text ID
+marginTop 10
+
+Text
+color #c5c5c5
+fontFamily Montserrat
+fontSize 14
+fontWeight 300
+text <id 10000000001
+marginTop 10
+marginLeft 10
+
+AddressSection Vertical
+flexBasis auto
+flexGrow 1
+flexShrink 1
+marginTop 40
+Horizontal
+flexBasis auto
+flexGrow 1
+flexShrink 1
 LocationSvg
 width 30
 height 30
@@ -42,6 +55,13 @@ flexBasis auto
 flexGrow 1
 flexShrink 1
 marginLeft 10
+SectionName
+marginTop 17
+ValueSmall
+value <county Co. Dublin
+marginLeft 0
+
+
 ValueSmall
 value <address1 1 Views Tools Rd
 marginLeft 0
@@ -56,22 +76,9 @@ value <postCode VT101
 marginLeft 0
 
 ValueSmall
-value <county Co. Dublin
-marginLeft 0
-
-ValueSmall
-value <country Ireland
-marginLeft 0
-
-
-
-Vertical
-flexBasis auto
-flexGrow 1
-flexShrink 1
-ValueSmall
 value <mobilePhone +353 555 000 555
 
 
 
 Account
+customerId <id

@@ -2,45 +2,53 @@
 import React from 'react';
 import Account from './Account.view.logic';
 import LocationSvg from '../Svgs/LocationSvg.view.js';
+import SectionName from '../Micro Copy/SectionName.view.js';
 import ValueLarge from '../Data/ValueLarge.view.js';
 import ValueSmall from '../Data/ValueSmall.view.js';
 
-import '../Fonts/Montserrat-400.js';
+import '../Fonts/Montserrat-300.js';
 import { css } from 'react-emotion';
 
-const Profile_h627ekv = css({
+const Vertical_h15g6w93 = css({
+  flexBasis: 'auto',
+  flexGrow: 1,
+  flexShrink: 1,
+  backgroundColor: '#ffaa00',
+});
+const Vertical_h7moydy = css({
+  flexBasis: 'auto',
+  flexGrow: 1,
+  flexShrink: 1,
   paddingTop: 30,
   paddingLeft: 30,
   paddingRight: 30,
 });
-const Vertical_hswucep = css({
-  alignItems: 'center',
-  flexBasis: 'auto',
-  flexGrow: 1,
-  flexShrink: 1,
-  justifyContent: 'center',
-});
-const NameSurname_h13jcepm = css({
-  flexDirection: 'row',
-  flexBasis: 'auto',
-  flexGrow: 1,
-  flexShrink: 1,
-});
-const Text_hxu9730 = css({
-  fontFamily: 'Montserrat, sans-serif',
-  fontSize: 10,
+const Text_hhzzivs = css({
   color: '#c5c5c5',
+  fontFamily: 'Montserrat, sans-serif',
+  fontSize: 14,
+  fontWeight: 300,
+  marginTop: 10,
 });
-const CustomerDetails_h1u70cya = css({
+const Text_h5pvax8 = css({
+  color: '#c5c5c5',
+  fontFamily: 'Montserrat, sans-serif',
+  fontSize: 14,
+  fontWeight: 300,
+  marginTop: 10,
+  marginLeft: 10,
+});
+const AddressSection_h1r6yaen = css({
+  flexBasis: 'auto',
+  flexGrow: 1,
+  flexShrink: 1,
+  marginTop: 40,
+});
+const Horizontal_h13jcepm = css({
   flexDirection: 'row',
   flexBasis: 'auto',
   flexGrow: 1,
   flexShrink: 1,
-  marginTop: 30,
-});
-const AddressSection_h1225pw6 = css({
-  flexDirection: 'row',
-  width: 300,
 });
 const Address_hp97y5c = css({
   flexBasis: 'auto',
@@ -48,51 +56,53 @@ const Address_hp97y5c = css({
   flexShrink: 1,
   marginLeft: 10,
 });
-const Vertical_h16ffdam = css({
-  flexBasis: 'auto',
-  flexGrow: 1,
-  flexShrink: 1,
-});
 
 const Profile = props => {
   return (
     <div
       data-test-id={`${props['data-test-id'] || 'Profile'}|`}
-      className={`views-block ${Profile_h627ekv}`}
+      className="views-block"
     >
       <div
         data-test-id={`Profile.Vertical|`}
-        className={`views-block ${Vertical_hswucep}`}
+        className={`views-block ${Vertical_h15g6w93}`}
       >
-        <div
-          data-test-id={`Profile.NameSurname|`}
-          className={`views-block ${NameSurname_h13jcepm}`}
-        >
-          <ValueLarge
-            data-test-id={`Profile.ValueLarge|`}
-            value={props.givenName}
-            className="views-block"
-          />
-          <ValueLarge
-            data-test-id={`Profile.ValueLarge:1|`}
-            value={props.familyName}
-            marginLeft={10}
-            className="views-block"
-          />
-        </div>
+        <ValueLarge
+          data-test-id={`Profile.ValueLarge|`}
+          value={props.givenName}
+          marginLeft={0}
+          className="views-block"
+        />
+        <ValueLarge
+          data-test-id={`Profile.ValueLarge:1|`}
+          value={props.familyName}
+          marginTop={0}
+          className="views-block"
+        />
+      </div>
+      <div
+        data-test-id={`Profile.Vertical:1|`}
+        className={`views-block ${Vertical_h7moydy}`}
+      >
         <span
           data-test-id={`Profile.Text|`}
-          className={`views-block ${Text_hxu9730}`}
+          className={`views-block ${Text_hhzzivs}`}
+        >
+          ID
+        </span>
+        <span
+          data-test-id={`Profile.Text:1|`}
+          className={`views-block ${Text_h5pvax8}`}
         >
           {props.id}
         </span>
         <div
-          data-test-id={`Profile.CustomerDetails|`}
-          className={`views-block ${CustomerDetails_h1u70cya}`}
+          data-test-id={`Profile.AddressSection|`}
+          className={`views-block ${AddressSection_h1r6yaen}`}
         >
           <div
-            data-test-id={`Profile.AddressSection|`}
-            className={`views-block ${AddressSection_h1225pw6}`}
+            data-test-id={`Profile.Horizontal|`}
+            className={`views-block ${Horizontal_h13jcepm}`}
           >
             <LocationSvg
               data-test-id={`Profile.LocationSvg|`}
@@ -104,51 +114,51 @@ const Profile = props => {
               data-test-id={`Profile.Address|`}
               className={`views-block ${Address_hp97y5c}`}
             >
+              <SectionName
+                data-test-id={`Profile.SectionName|`}
+                marginTop={17}
+                childrenProxyMap={{ ValueSmall: 0 }}
+                className="views-block"
+              >
+                <ValueSmall
+                  data-test-id={`Profile.ValueSmall|`}
+                  value={props.county}
+                  marginLeft={0}
+                  className="views-block"
+                />
+              </SectionName>
               <ValueSmall
-                data-test-id={`Profile.ValueSmall|`}
+                data-test-id={`Profile.ValueSmall:1|`}
                 value={props.address1}
                 marginLeft={0}
                 marginTop={15}
                 className="views-block"
               />
               <ValueSmall
-                data-test-id={`Profile.ValueSmall:1|`}
+                data-test-id={`Profile.ValueSmall:2|`}
                 value={props.town}
                 marginLeft={0}
                 className="views-block"
               />
               <ValueSmall
-                data-test-id={`Profile.ValueSmall:2|`}
+                data-test-id={`Profile.ValueSmall:3|`}
                 value={props.postCode}
                 marginLeft={0}
                 className="views-block"
               />
               <ValueSmall
-                data-test-id={`Profile.ValueSmall:3|`}
-                value={props.county}
-                marginLeft={0}
-                className="views-block"
-              />
-              <ValueSmall
                 data-test-id={`Profile.ValueSmall:4|`}
-                value={props.country}
-                marginLeft={0}
+                value={props.mobilePhone}
                 className="views-block"
               />
             </div>
           </div>
-          <div
-            data-test-id={`Profile.Vertical:1|`}
-            className={`views-block ${Vertical_h16ffdam}`}
-          >
-            <ValueSmall
-              data-test-id={`Profile.ValueSmall:5|`}
-              value={props.mobilePhone}
-              className="views-block"
-            />
-          </div>
+          <Account
+            data-test-id={`Profile.Account|`}
+            customerId={props.id}
+            className="views-block"
+          />
         </div>
-        <Account data-test-id={`Profile.Account|`} className="views-block" />
       </div>
       {props.children}
     </div>
@@ -158,12 +168,11 @@ const Profile = props => {
 Profile.defaultProps = {
   givenName: 'Summer',
   familyName: 'Winters',
-  id: 100000000001,
+  id: 10000000001,
+  county: 'Co. Dublin',
   address1: '1 Views Tools Rd',
   town: 'Dublin',
   postCode: 'VT101',
-  county: 'Co. Dublin',
-  country: 'Ireland',
   mobilePhone: '+353 555 000 555',
 };
 export default Profile;

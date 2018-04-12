@@ -10,11 +10,12 @@ const ValueLarge1 = styled('div')(({ props }) => ({
 const Text = styled('span')(
   {
     fontFamily: 'Montserrat, sans-serif',
-    fontSize: 24,
+    fontSize: 34,
     fontWeight: 300,
   },
   ({ props }) => ({
     color: props.color,
+    marginTop: props.marginTop,
   })
 );
 
@@ -40,6 +41,7 @@ const ValueLarge = props => {
 ValueLarge.defaultProps = {
   marginLeft: 0,
   color: '#323232',
-  value: 'Data',
+  marginTop: 5,
+  value: 'Summer',
 };
 export default ValueLarge;

@@ -7,12 +7,11 @@ import styled from 'react-emotion';
 const Text = styled('span')(
   {
     fontFamily: 'Montserrat, sans-serif',
-    fontSize: 14,
+    fontSize: 16,
     fontWeight: 400,
   },
   ({ props }) => ({
     color: props.color,
-    marginLeft: props.marginLeft,
     marginTop: props.marginTop,
   })
 );
@@ -38,7 +37,6 @@ const ValueSmall = props => {
 ValueSmall.defaultProps = {
   color: '#323232',
   value: 'Data',
-  marginLeft: 10,
-  marginTop: 5,
+  marginTop: 10,
 };
 export default ValueSmall;

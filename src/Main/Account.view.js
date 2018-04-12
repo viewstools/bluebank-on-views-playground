@@ -78,8 +78,5 @@ const Account = props => {
   );
 };
 
-Account.defaultProps = {
-  marginTop: 0,
-  id: 'id',
-};
+Account.defaultProps = { marginTop: 0 };
 export default Account;
