@@ -7,7 +7,7 @@ BBan
 IBan
 
 Text
-text <accountBalance 2.000,00
+text < 2.000,00
 
 Text
 text <accountCurrency Euro
