@@ -2,5 +2,5 @@ AccountNumber Horizontal
 alignItems baseline
 minHeight 20
 DataFieldSmall
-label Balance
+label accountNumber
 value <accountNumber 2.000,00
