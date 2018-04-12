@@ -33,6 +33,10 @@ ValueSmall
 value <town Dublin
 marginLeft 0
 
+ValueSmall
+value <postCode Dublin
+marginLeft 0
+
 
 
 Text
