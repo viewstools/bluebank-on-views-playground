@@ -2,7 +2,7 @@ SectionName Text
 text Address
 fontFamily Montserrat
 fontSize 14
-color #c5c5c5
+color < #c5c5c5
 marginTop < 10
 fontWeight 300
 textTransform uppercase
