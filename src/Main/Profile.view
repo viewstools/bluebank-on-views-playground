@@ -42,6 +42,10 @@ Address Vertical
 flexBasis auto
 flexGrow 1
 flexShrink 1
+ValueSmall
+value <country Ireland
+marginLeft 0
+
 SectionName
 ValueSmall
 value <county Co. Dublin
@@ -59,10 +63,4 @@ marginLeft 0
 
 ValueSmall
 value <postCode VT101
-marginLeft 0
-
-
-
-ValueSmall
-value <country Ireland
 marginLeft 0
