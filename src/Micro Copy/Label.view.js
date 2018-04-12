@@ -7,7 +7,7 @@ import styled from 'react-emotion';
 const Text = styled('span')(
   {
     fontSize: 12,
-    marginTop: 10,
+    marginTop: 15,
   },
   ({ props }) => ({
     color: props.color,
@@ -32,7 +32,7 @@ const Label = props => {
 };
 
 Label.defaultProps = {
-  color: '#323232',
+  color: '#ffaa00',
   fontFamily: 'Montserrat',
   fontWeight: 400,
   label: 'Label',

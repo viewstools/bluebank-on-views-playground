@@ -20,7 +20,6 @@ const DataFieldSmall = props => {
       <Label
         data-test-id={`DataFieldSmall.Label|`}
         label={props.label}
-        color={props.color}
         fontFamily={props.fontFamily}
         fontWeight={props.fontWeight}
         textTransform={props.textTransform}
@@ -39,10 +38,10 @@ const DataFieldSmall = props => {
 
 DataFieldSmall.defaultProps = {
   label: 'Label',
-  color: '#323232',
   fontFamily: 'Montserrat',
   fontWeight: 400,
   textTransform: 'uppercase',
+  color: '#323232',
   value: 'Data',
 };
 export default DataFieldSmall;
