@@ -3,4 +3,4 @@ alignItems baseline
 minHeight 20
 DataFieldSmall
 label Account Balance
-value <accountBalance 2.000,0
+value <accountBalance 2.000,00
