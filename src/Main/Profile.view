@@ -10,7 +10,7 @@ ValueLarge
 value <familyName Winters
 marginTop 0
 
-Vertical
+Horizontal
 alignItems center
 flexBasis auto
 flexGrow 1
