@@ -2,5 +2,5 @@ AccountFriendlyName Horizontal
 alignItems baseline
 minHeight 20
 DataFieldSmall
-label Na
+label Name
 value <accountFriendlyName 2.000,00
