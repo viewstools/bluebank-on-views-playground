@@ -43,6 +43,10 @@ flexBasis auto
 flexGrow 1
 flexShrink 1
 SectionName
+ValueSmall
+value <county Co. Dublin
+marginLeft 5
+
 
 ValueSmall
 value <address1 1 Views Tools Rd
@@ -58,10 +62,6 @@ value <postCode VT101
 marginLeft 5
 
 
-
-ValueSmall
-value <county Co. Dublin
-marginLeft 5
 
 ValueSmall
 value <country Ireland
