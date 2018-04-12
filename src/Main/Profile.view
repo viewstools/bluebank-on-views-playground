@@ -37,6 +37,7 @@ flexShrink 1
 justifyContent center
 LocationSvg
 width 78
+height 113
 
 Address Vertical
 flexBasis auto
