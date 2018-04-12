@@ -1,0 +1,13 @@
+LocationSvg Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+width < 78
+height < 113
+viewBox 0 0 78 113
+SvgPath
+d M39 112.484C13 77.854 0 53.36 0 39 0 17.46 17.46 0 39 0s39 17.46 39 39c0 14.36-13 38.854-39 73.484zM40 60c11.046 0 20-8.954 20-20s-8.954-20-20-20-20 8.954-20 20 8.954 20 20 20z
+fill < #D8D8D8
+fillRule evenodd

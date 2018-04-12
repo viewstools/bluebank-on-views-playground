@@ -1,63 +1,85 @@
 /* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
+import AccountBalance from '../Data/AccountBalance.view.js';
+import AccountCurrency from '../Data/AccountCurrency.view.js';
+import AccountFriendlyName from '../Data/AccountFriendlyName.view.js';
+import AccountNumber from '../Data/AccountNumber.view.js';
+import AccountType from '../Data/AccountType.view.js';
+import BBan from '../Data/BBan.view.js';
+import CustomerID from '../Data/CustomerID.view.js';
+import IBan from '../Data/IBan.view.js';
+import Id from '../Data/Id.view.js';
+import SortCode from '../Data/SortCode.view.js';
 import Transactions from './Transactions.view.logic';
+
+import styled, { css } from 'react-emotion';
+
+const Account1 = styled('div')({ flexDirection: 'row' }, ({ props }) => ({
+  marginTop: props.marginTop,
+}));
+const Vertical_h16ffdam = css({
+  flexBasis: 'auto',
+  flexGrow: 1,
+  flexShrink: 1,
+});
 
 const Account = props => {
   return (
-    <div
+    <Account1
       data-test-id={`${props['data-test-id'] || 'Account'}|`}
+      props={props}
       className="views-block"
     >
-      <span data-test-id={`Account.Text|`} className="views-block">
-        {props.customerId}
-      </span>
-      <span data-test-id={`Account.Text:1|`} className="views-block">
-        {props.Bban}
-      </span>
-      <span data-test-id={`Account.Text:2|`} className="views-block">
-        {props.Iban}
-      </span>
-      <span data-test-id={`Account.Text:3|`} className="views-block">
-        {props.accountBalance}
-      </span>
-      <span data-test-id={`Account.Text:4|`} className="views-block">
-        {props.accountCurrency}
-      </span>
-      <span data-test-id={`Account.Text:5|`} className="views-block">
-        {props.accountFriendlyName}
-      </span>
-      <span data-test-id={`Account.Text:6|`} className="views-block">
-        {props.accountNumber}
-      </span>
-      <span data-test-id={`Account.Text:7|`} className="views-block">
-        {props.accountType}
-      </span>
-      <span data-test-id={`Account.Text:8|`} className="views-block">
-        {props.id}
-      </span>
-      <span data-test-id={`Account.Text:9|`} className="views-block">
-        {props.sortCode}
-      </span>
+      <div
+        data-test-id={`Account.Vertical|`}
+        className={`views-block ${Vertical_h16ffdam}`}
+      >
+        <CustomerID
+          data-test-id={`Account.CustomerID|`}
+          className="views-block"
+        />
+        <BBan data-test-id={`Account.BBan|`} className="views-block" />
+        <IBan data-test-id={`Account.IBan|`} className="views-block" />
+        <AccountBalance
+          data-test-id={`Account.AccountBalance|`}
+          className="views-block"
+        />
+        <AccountCurrency
+          data-test-id={`Account.AccountCurrency|`}
+          className="views-block"
+        />
+      </div>
+      <div
+        data-test-id={`Account.Vertical:1|`}
+        className={`views-block ${Vertical_h16ffdam}`}
+      >
+        <AccountFriendlyName
+          data-test-id={`Account.AccountFriendlyName|`}
+          className="views-block"
+        />
+        <AccountNumber
+          data-test-id={`Account.AccountNumber|`}
+          className="views-block"
+        />
+        <SortCode data-test-id={`Account.SortCode|`} className="views-block" />
+        <AccountType
+          data-test-id={`Account.AccountType|`}
+          className="views-block"
+        />
+        <Id data-test-id={`Account.Id|`} className="views-block" />
+      </div>
       <Transactions
         data-test-id={`Account.Transactions|`}
         accountId={props.id}
         className="views-block"
       />
       {props.children}
-    </div>
+    </Account1>
   );
 };
 
 Account.defaultProps = {
-  customerId: '',
-  Bban: '',
-  Iban: '',
-  accountBalance: '',
-  accountCurrency: '',
-  accountFriendlyName: '',
-  accountNumber: '',
-  accountType: '',
-  id: '',
-  sortCode: '',
+  marginTop: 0,
+  id: 'id',
 };
 export default Account;

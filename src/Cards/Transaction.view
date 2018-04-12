@@ -1,21 +1,23 @@
 Transaction Vertical
+backgroundColor blue
+marginTop 30
 Text
-text <id
+text <id 100000000001
 
 Text
-text <accountBalance
+text <accountBalance 2.000,00
 
 Text
-text <transactionAmount
+text <transactionAmount 1.000,00
 
 Text
-text <transactionCurrency
+text <transactionCurrency Euro
 
 Text
-text <transactionDateTime
+text <transactionDateTime 2017-06-18T09:00:00.000Z
 
 Text
-text <transactionDescription
+text <transactionDescription Rent 04.2018
 
 Text
-text <transactionType
+text <transactionType Urgent (XFR)
