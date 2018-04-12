@@ -7,6 +7,7 @@ backgroundColor #ffaa00
 ValueLarge
 value <givenName Summer
 marginLeft 0
+color #323232
 
 ValueLarge
 value <familyName Winters
@@ -81,4 +82,4 @@ value <mobilePhone +353 555 000 555
 
 
 Account
-customerId <id
+customerId <id id
