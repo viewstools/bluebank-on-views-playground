@@ -27,7 +27,7 @@ text <id 100000000001
 fontFamily Montserrat
 fontSize 14
 color #c5c5c5
-marginTop 10
+marginTop 5
 
 CustomerDetails Vertical
 flexBasis auto
