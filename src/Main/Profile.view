@@ -37,15 +37,15 @@ flexShrink 1
 marginTop 30
 AddressSection Horizontal
 width 300
-LocationSvg
-width 30
-height 30
-
 Address Vertical
 flexBasis auto
 flexGrow 1
 flexShrink 1
 marginLeft 10
+LocationSvg
+width 30
+height 30
+
 ValueSmall
 value <address1 1 Views Tools Rd
 marginLeft 0
