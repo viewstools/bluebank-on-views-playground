@@ -6,7 +6,7 @@ flexShrink 1
 backgroundColor #ffaa00
 paddingTop 30
 paddingLeft 30
-paddingBottom 2
+paddingBottom 20
 ValueLarge
 value <givenName Summer
 marginLeft 0
