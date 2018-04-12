@@ -3,7 +3,7 @@ Text
 text <familyName Winters
 
 ValueLarge
-value < Data
+value <familyName Data
 
 Text
 text <givenName Summer
