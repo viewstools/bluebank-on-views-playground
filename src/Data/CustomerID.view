@@ -1,0 +1,7 @@
+CustomerID Horizontal
+alignItems baseline
+CustomerID Label
+text Customer ID
+
+DataSmall
+text <customerId 100000000001
