@@ -7,7 +7,7 @@ value <givenName Summer
 
 ValueLarge
 value <familyName Winters
-marginTop 5
+marginTop 0
 
 Vertical
 alignItems center
