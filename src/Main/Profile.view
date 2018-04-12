@@ -12,9 +12,6 @@ marginLeft 10
 
 
 Text
-text <mobilePhone +353 10 000 001
-
-Text
 text <address1 1 Views Tools St
 
 Text
@@ -28,6 +25,9 @@ text <county Co. Dubin
 
 Text
 text <country Ireland
+
+Text
+text <mobilePhone +353 10 000 001
 
 Text
 text <id 100000000001
