@@ -30,18 +30,10 @@ color #c5c5c5
 marginTop 5
 fontWeight 300
 
-CustomerDetails Vertical
-flexBasis auto
-flexGrow 1
-flexShrink 1
-marginTop 30
-AddressSection Horizontal
-width 300
 Address Vertical
 flexBasis auto
 flexGrow 1
 flexShrink 1
-marginLeft 20
 LocationSvg
 width 30
 height 30
@@ -66,12 +58,3 @@ marginLeft 5
 ValueSmall
 value <country Ireland
 marginLeft 5
-
-
-
-Vertical
-flexBasis auto
-flexGrow 1
-flexShrink 1
-ValueSmall
-value <mobilePhone +353 555 000 555
