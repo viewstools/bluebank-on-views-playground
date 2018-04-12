@@ -3,6 +3,6 @@ Text
 color < #323232
 fontFamily Montserrat
 fontSize 24
-fontWeight 400
+fontWeight 300
 text <value Data
 marginLeft 10
