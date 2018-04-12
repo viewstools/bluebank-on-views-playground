@@ -4,9 +4,11 @@ TODO explanation
 
 - Clone repo
 
+- Setup your dev environment if you haven't done so yet
+  https://github.com/viewstools/docs/blob/master/DevEnvironmentSetup.md
+
 - Install dependencies
-``
-TODO node
+```
 npm install
 ```
 
