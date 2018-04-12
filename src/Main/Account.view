@@ -17,9 +17,6 @@ AccountNumber
 AccountType
 
 Text
-text <accountType Savings
-
-Text
 text <id 100000000001
 
 Text
