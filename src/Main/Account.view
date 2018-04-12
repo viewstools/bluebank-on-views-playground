@@ -5,12 +5,12 @@ flexBasis auto
 flexGrow 1
 flexShrink 1
 justifyContent center
+IBan
+
 CustomerID
 
 BBan
 
-
-IBan
 
 AccountBalance
 
