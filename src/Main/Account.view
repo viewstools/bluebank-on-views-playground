@@ -1,33 +1,40 @@
 Account Vertical
-Text
-text <customerId
+backgroundColor red
+Horizontal
+alignItems center
+CustomerID Label
+text Customer ID
+
+DataSmall
+text <customerId 100000000001
+
 
 Text
-text <Bban
+text <Bban 5390 0754 7034
 
 Text
-text <Iban
+text <Iban ULSBIE1111000011110000
 
 Text
-text <accountBalance
+text <accountBalance 2.000,00
 
 Text
-text <accountCurrency
+text <accountCurrency Euro
 
 Text
-text <accountFriendlyName
+text <accountFriendlyName Daily
 
 Text
-text <accountNumber
+text <accountNumber 555500005555
 
 Text
-text <accountType
+text <accountType Savings
 
 Text
-text <id
+text <id 100000000001
 
 Text
-text <sortCode
+text <sortCode 985130
 
 Transactions
-accountId <id
+accountId <id id
