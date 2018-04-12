@@ -41,6 +41,7 @@ color white
 
 ValueSmall
 value <postCode VT101
+color #323232
 
 ValueSmall
 value <country Ireland
