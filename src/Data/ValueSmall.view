@@ -4,5 +4,5 @@ color < #323232
 fontFamily Montserrat
 fontSize 14
 fontWeight 400
-text < Data
+text <v Data
 marginLeft 20
