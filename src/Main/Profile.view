@@ -17,7 +17,7 @@ fontFamily Montserrat
 fontSize 10
 color #c5c5c5
 
-Vertical
+Horizontal
 alignItems center
 flexBasis auto
 flexGrow 1
