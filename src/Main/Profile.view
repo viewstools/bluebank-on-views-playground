@@ -15,7 +15,7 @@ color #c5c5c5
 fontFamily Montserrat
 fontSize 14
 fontWeight 300
-text <id 10
+text <id 100
 
 AddressSection Vertical
 flexBasis auto
