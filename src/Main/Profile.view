@@ -1,0 +1,30 @@
+Profile Vertical
+Text
+text <id
+
+Text
+text <givenName
+
+Text
+text <familyName
+
+Text
+text <mobilePhone
+
+Text
+text <address1
+
+Text
+text <town
+
+Text
+text <postCode
+
+Text
+text <county
+
+Text
+text <country
+
+Account
+customerId <id

@@ -1,0 +1,21 @@
+Transaction Vertical
+Text
+text <id
+
+Text
+text <accountBalance
+
+Text
+text <transactionAmount
+
+Text
+text <transactionCurrency
+
+Text
+text <transactionDateTime
+
+Text
+text <transactionDescription
+
+Text
+text <transactionType

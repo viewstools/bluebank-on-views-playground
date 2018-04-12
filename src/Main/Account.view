@@ -1,0 +1,33 @@
+Account Vertical
+Text
+text <customerId
+
+Text
+text <Bban
+
+Text
+text <Iban
+
+Text
+text <accountBalance
+
+Text
+text <accountCurrency
+
+Text
+text <accountFriendlyName
+
+Text
+text <accountNumber
+
+Text
+text <accountType
+
+Text
+text <id
+
+Text
+text <sortCode
+
+Transactions
+accountId <id
