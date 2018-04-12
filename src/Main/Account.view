@@ -10,6 +10,8 @@ AccountBalance
 
 AccountCurrency
 
+AccountFriendlyName
+
 Text
 text <accountFriendlyName Daily
 
