@@ -5,7 +5,7 @@ flexBasis auto
 flexGrow 1
 flexShrink 1
 justifyContent center
-height 40
+height 6
 backgroundColor #ffaa00
 
 Profile
