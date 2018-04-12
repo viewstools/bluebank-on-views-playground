@@ -14,7 +14,7 @@ import Transactions from './Transactions.view.logic';
 
 import styled, { css } from 'react-emotion';
 
-const Account1 = styled('div')({ flexDirection: 'row' }, ({ props }) => ({
+const Account1 = styled('div')(({ props }) => ({
   marginTop: props.marginTop,
 }));
 const Vertical_h16ffdam = css({

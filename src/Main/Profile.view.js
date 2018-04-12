@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
+import Account from './Account.view.logic';
 import LocationSvg from '../Svgs/LocationSvg.view.js';
 import ValueLarge from '../Data/ValueLarge.view.js';
 import ValueSmall from '../Data/ValueSmall.view.js';
@@ -62,90 +63,92 @@ const Profile = props => {
       <div
         data-test-id={`Profile.Vertical|`}
         className={`views-block ${Vertical_hswucep}`}
-      />
-      <div
-        data-test-id={`Profile.NameSurname|`}
-        className={`views-block ${NameSurname_h13jcepm}`}
-      >
-        <ValueLarge
-          data-test-id={`Profile.ValueLarge|`}
-          value={props.givenName}
-          className="views-block"
-        />
-        <ValueLarge
-          data-test-id={`Profile.ValueLarge:1|`}
-          value={props.familyName}
-          marginLeft={10}
-          className="views-block"
-        />
-      </div>
-      <span
-        data-test-id={`Profile.Text|`}
-        className={`views-block ${Text_hxu9730}`}
-      >
-        {props.id}
-      </span>
-      <div
-        data-test-id={`Profile.CustomerDetails|`}
-        className={`views-block ${CustomerDetails_h1u70cya}`}
       >
         <div
-          data-test-id={`Profile.AddressSection|`}
-          className={`views-block ${AddressSection_h1225pw6}`}
+          data-test-id={`Profile.NameSurname|`}
+          className={`views-block ${NameSurname_h13jcepm}`}
         >
-          <LocationSvg
-            data-test-id={`Profile.LocationSvg|`}
-            width={30}
-            height={30}
+          <ValueLarge
+            data-test-id={`Profile.ValueLarge|`}
+            value={props.givenName}
             className="views-block"
           />
+          <ValueLarge
+            data-test-id={`Profile.ValueLarge:1|`}
+            value={props.familyName}
+            marginLeft={10}
+            className="views-block"
+          />
+        </div>
+        <span
+          data-test-id={`Profile.Text|`}
+          className={`views-block ${Text_hxu9730}`}
+        >
+          {props.id}
+        </span>
+        <div
+          data-test-id={`Profile.CustomerDetails|`}
+          className={`views-block ${CustomerDetails_h1u70cya}`}
+        >
           <div
-            data-test-id={`Profile.Address|`}
-            className={`views-block ${Address_hp97y5c}`}
+            data-test-id={`Profile.AddressSection|`}
+            className={`views-block ${AddressSection_h1225pw6}`}
+          >
+            <LocationSvg
+              data-test-id={`Profile.LocationSvg|`}
+              width={30}
+              height={30}
+              className="views-block"
+            />
+            <div
+              data-test-id={`Profile.Address|`}
+              className={`views-block ${Address_hp97y5c}`}
+            >
+              <ValueSmall
+                data-test-id={`Profile.ValueSmall|`}
+                value={props.address1}
+                marginLeft={0}
+                marginTop={15}
+                className="views-block"
+              />
+              <ValueSmall
+                data-test-id={`Profile.ValueSmall:1|`}
+                value={props.town}
+                marginLeft={0}
+                className="views-block"
+              />
+              <ValueSmall
+                data-test-id={`Profile.ValueSmall:2|`}
+                value={props.postCode}
+                marginLeft={0}
+                className="views-block"
+              />
+              <ValueSmall
+                data-test-id={`Profile.ValueSmall:3|`}
+                value={props.county}
+                marginLeft={0}
+                className="views-block"
+              />
+              <ValueSmall
+                data-test-id={`Profile.ValueSmall:4|`}
+                value={props.country}
+                marginLeft={0}
+                className="views-block"
+              />
+            </div>
+          </div>
+          <div
+            data-test-id={`Profile.Vertical:1|`}
+            className={`views-block ${Vertical_h16ffdam}`}
           >
             <ValueSmall
-              data-test-id={`Profile.ValueSmall|`}
-              value={props.address1}
-              marginLeft={0}
-              marginTop={15}
-              className="views-block"
-            />
-            <ValueSmall
-              data-test-id={`Profile.ValueSmall:1|`}
-              value={props.town}
-              marginLeft={0}
-              className="views-block"
-            />
-            <ValueSmall
-              data-test-id={`Profile.ValueSmall:2|`}
-              value={props.postCode}
-              marginLeft={0}
-              className="views-block"
-            />
-            <ValueSmall
-              data-test-id={`Profile.ValueSmall:3|`}
-              value={props.county}
-              marginLeft={0}
-              className="views-block"
-            />
-            <ValueSmall
-              data-test-id={`Profile.ValueSmall:4|`}
-              value={props.country}
-              marginLeft={0}
+              data-test-id={`Profile.ValueSmall:5|`}
+              value={props.mobilePhone}
               className="views-block"
             />
           </div>
         </div>
-        <div
-          data-test-id={`Profile.Vertical:1|`}
-          className={`views-block ${Vertical_h16ffdam}`}
-        >
-          <ValueSmall
-            data-test-id={`Profile.ValueSmall:5|`}
-            value={props.mobilePhone}
-            className="views-block"
-          />
-        </div>
+        <Account data-test-id={`Profile.Account|`} className="views-block" />
       </div>
       {props.children}
     </div>
