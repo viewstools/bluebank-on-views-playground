@@ -3,7 +3,6 @@ alignItems baseline
 marginTop 10
 Label
 label < Label
-color < #323232
 fontFamily < Montserrat
 fontWeight < 400
 textTransform < uppercase
