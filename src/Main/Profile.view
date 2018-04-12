@@ -31,7 +31,6 @@ flexShrink 1
 marginTop 30
 AddressSection Horizontal
 flexGrow 1
-flexShrink 1
 width 100
 LocationSvg
 width 30
