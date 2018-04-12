@@ -10,6 +10,13 @@ ValueLarge
 value <familyName Winters
 marginTop 0
 
+Text
+color #323232
+fontFamily Montserrat
+fontSize 18
+fontWeight 400
+text Type something...
+
 AddressSection Vertical
 flexBasis auto
 flexGrow 1
