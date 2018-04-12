@@ -3,6 +3,9 @@ paddingTop 30
 paddingLeft 30
 paddingRight 30
 ValueLarge
+value <givenName Summer
+
+ValueLarge
 value <familyName Winters
 
 Vertical
@@ -11,9 +14,6 @@ flexBasis auto
 flexGrow 1
 flexShrink 1
 justifyContent center
-ValueLarge
-value <givenName Summer
-
 
 NameSurname Vertical
 flexBasis auto
