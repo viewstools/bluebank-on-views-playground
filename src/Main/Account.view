@@ -15,9 +15,6 @@ AccountFriendlyName
 AccountNumber
 
 Text
-text <accountNumber 555500005555
-
-Text
 text <accountType Savings
 
 Text
