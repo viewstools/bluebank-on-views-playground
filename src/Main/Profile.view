@@ -38,13 +38,6 @@ LocationSvg
 width 30
 height 30
 
-Text
-color #c1c1c1
-fontFamily Montserrat
-fontSize 18
-fontWeight 400
-text Type something...
-
 
 ValueSmall
 value <address1 1 Views Tools Rd
