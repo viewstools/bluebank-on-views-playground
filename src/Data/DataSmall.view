@@ -1,6 +1,7 @@
 DataSmall Vertical
 alignItems center
 justifyContent center
+flexBasis
 Text
 color #323232
 fontFamily Montserrat
