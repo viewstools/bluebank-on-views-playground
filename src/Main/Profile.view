@@ -47,6 +47,7 @@ color white
 ValueSmall
 value <town Dublin
 marginLeft 0
+color #323232
 
 ValueSmall
 value <postCode VT101
