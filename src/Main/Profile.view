@@ -2,6 +2,7 @@ Profile Vertical
 overflowY auto
 flexGrow 1
 flexShrink 1
+flexBasis
 Vertical
 flexBasis auto
 flexGrow 1
