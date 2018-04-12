@@ -11,9 +11,6 @@ AccountBalance
 AccountCurrency
 
 Text
-text <accountCurrency Euro
-
-Text
 text <accountFriendlyName Daily
 
 Text
