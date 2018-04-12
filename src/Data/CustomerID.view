@@ -3,4 +3,4 @@ alignItems baseline
 minHeight 20
 DataFieldSmall
 label CustomerID
-value 10000
+value 100000
