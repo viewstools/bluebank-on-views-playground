@@ -1,7 +1,7 @@
 Account Vertical
 backgroundColor red
 Horizontal
-alignItems center
+alignItems baseline
 CustomerID Label
 text Customer ID
 
