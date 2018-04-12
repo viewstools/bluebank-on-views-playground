@@ -28,8 +28,6 @@ SortCode
 
 AccountType
 
-Id
-
 
 Transactions
 accountId <id id
