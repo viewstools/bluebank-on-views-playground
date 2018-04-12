@@ -2,7 +2,7 @@ Label Vertical
 Text
 color < #323232
 fontFamily < Montserrat
-fontSize < 1412
+fontSize < 141
 fontWeight < 400
 text <label Label
 textTransform < uppercase
