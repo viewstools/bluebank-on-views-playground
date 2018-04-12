@@ -2,6 +2,6 @@ Label Vertical
 Text
 color #323232
 fontFamily Montserrat
-fontSize 1
+fontSize 12
 fontWeight 400
 text Label
