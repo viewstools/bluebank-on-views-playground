@@ -22,9 +22,9 @@ flexBasis auto
 flexGrow 1
 flexShrink 1
 justifyContent center
-AccountNumber
-
 AccountFriendlyName
+
+AccountNumber
 
 
 AccountType
