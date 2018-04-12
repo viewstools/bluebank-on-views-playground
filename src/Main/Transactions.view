@@ -2,5 +2,6 @@ Transactions List
 from <
 flexGrow 1
 flexShrink 1
-flexBasis
+flexBasis auto
+backgroundColor #ffaa00
 Transaction
