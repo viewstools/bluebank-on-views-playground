@@ -1,8 +1,12 @@
 App Vertical
-Horizontal
+Vertical
 flexBasis auto
 flexGrow 1
 flexShrink 1
 backgroundColor #ffaa00
+ValueLarge
+value <givenName Summer
+marginLeft 0
+
 
 Profile
