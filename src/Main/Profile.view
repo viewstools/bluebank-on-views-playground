@@ -1,7 +1,7 @@
 Profile Vertical
 paddingTop 10
 paddingLeft 30
-paddingRight 10
+paddingRight 3
 Vertical
 alignItems center
 flexBasis auto
