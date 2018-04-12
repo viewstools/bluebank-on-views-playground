@@ -3,6 +3,6 @@ text Address
 fontFamily Montserrat
 fontSize 14
 color #c5c5c5
-marginTop 30
+marginTop < 30
 fontWeight 300
 textTransform uppercase
