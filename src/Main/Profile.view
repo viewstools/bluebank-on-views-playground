@@ -25,6 +25,7 @@ paddingTop 15
 ValueSmall
 value <mobilePhone +353 555 000 555
 color white
+marginTop 5
 
 ValueSmall
 value <address1 1 Views Tools Rd
