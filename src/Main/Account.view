@@ -12,6 +12,8 @@ AccountCurrency
 
 AccountFriendlyName
 
+AccountNumber
+
 Text
 text <accountNumber 555500005555
 
