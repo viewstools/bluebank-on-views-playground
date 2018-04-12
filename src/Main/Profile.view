@@ -17,11 +17,6 @@ flexGrow 1
 flexShrink 1
 justifyContent center
 
-NameSurname Vertical
-flexBasis auto
-flexGrow 1
-flexShrink 1
-
 AddressSection Vertical
 flexBasis auto
 flexGrow 1
