@@ -2,5 +2,5 @@ IBan Horizontal
 alignItems baseline
 minHeight 20
 DataFieldSmall
-label CustomerID
+label I
 value 100000000000
