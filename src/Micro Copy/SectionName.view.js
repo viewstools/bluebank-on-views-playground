@@ -7,12 +7,12 @@ import styled from 'react-emotion';
 const SectionName1 = styled('span')(
   {
     fontFamily: 'Montserrat, sans-serif',
-    fontSize: 14,
-    color: '#c5c5c5',
+    fontSize: 12,
     fontWeight: 300,
     textTransform: 'uppercase',
   },
   ({ props }) => ({
+    color: props.color,
     marginTop: props.marginTop,
   })
 );
@@ -29,5 +29,8 @@ const SectionName = props => {
   );
 };
 
-SectionName.defaultProps = { marginTop: 10 };
+SectionName.defaultProps = {
+  color: '#c5c5c5',
+  marginTop: 10,
+};
 export default SectionName;

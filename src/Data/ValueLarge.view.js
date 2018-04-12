@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
 
-import '../Fonts/Montserrat-300.js';
+import '../Fonts/Montserrat-200.js';
 import styled from 'react-emotion';
 
 const ValueLarge1 = styled('div')(({ props }) => ({
@@ -10,8 +10,8 @@ const ValueLarge1 = styled('div')(({ props }) => ({
 const Text = styled('span')(
   {
     fontFamily: 'Montserrat, sans-serif',
-    fontSize: 34,
-    fontWeight: 300,
+    fontSize: 38,
+    fontWeight: 200,
   },
   ({ props }) => ({
     color: props.color,

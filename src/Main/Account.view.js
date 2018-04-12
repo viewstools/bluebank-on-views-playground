@@ -12,11 +12,12 @@ import Id from '../Data/Id.view.js';
 import SortCode from '../Data/SortCode.view.js';
 import Transactions from './Transactions.view.logic';
 
-import styled, { css } from 'react-emotion';
+import { css } from 'react-emotion';
 
-const Account1 = styled('div')(({ props }) => ({
-  marginTop: props.marginTop,
-}));
+const Account_h1knxn28 = css({
+  paddingLeft: 30,
+  paddingTop: 10,
+});
 const Vertical_h16ffdam = css({
   flexBasis: 'auto',
   flexGrow: 1,
@@ -25,10 +26,9 @@ const Vertical_h16ffdam = css({
 
 const Account = props => {
   return (
-    <Account1
+    <div
       data-test-id={`${props['data-test-id'] || 'Account'}|`}
-      props={props}
-      className="views-block"
+      className={`views-block ${Account_h1knxn28}`}
     >
       <div
         data-test-id={`Account.Vertical|`}
@@ -74,9 +74,9 @@ const Account = props => {
         className="views-block"
       />
       {props.children}
-    </Account1>
+    </div>
   );
 };
 
-Account.defaultProps = { marginTop: 0 };
+Account.defaultProps = { id: 'id' };
 export default Account;

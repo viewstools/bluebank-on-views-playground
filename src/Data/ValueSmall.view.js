@@ -1,14 +1,14 @@
 /* eslint-disable jsx-a11y/accessible-emoji, no-unused-vars */
 import React from 'react';
 
-import '../Fonts/Montserrat-400.js';
+import '../Fonts/Montserrat-300.js';
 import styled from 'react-emotion';
 
 const Text = styled('span')(
   {
     fontFamily: 'Montserrat, sans-serif',
-    fontSize: 16,
-    fontWeight: 400,
+    fontSize: 20,
+    fontWeight: 300,
   },
   ({ props }) => ({
     color: props.color,
@@ -37,6 +37,6 @@ const ValueSmall = props => {
 ValueSmall.defaultProps = {
   color: '#323232',
   value: 'Data',
-  marginTop: 10,
+  marginTop: 5,
 };
 export default ValueSmall;

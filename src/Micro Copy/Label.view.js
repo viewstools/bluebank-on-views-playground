@@ -4,37 +4,36 @@ import React from 'react';
 import '../Fonts/props.fontFamily-props.fontWeight.js';
 import styled from 'react-emotion';
 
-const Label1 = styled('div')(({ props }) => ({
-  width: props.widthLabel,
-}));
-const Text = styled('span')(({ props }) => ({
-  color: props.color,
-  fontFamily: props.fontFamily,
-  fontSize: props.fontSize,
-  fontWeight: props.fontWeight,
-  textTransform: props.textTransform,
-}));
+const Text = styled('span')(
+  {
+    fontSize: 12,
+    marginTop: 10,
+  },
+  ({ props }) => ({
+    color: props.color,
+    fontFamily: props.fontFamily,
+    fontWeight: props.fontWeight,
+    textTransform: props.textTransform,
+  })
+);
 
 const Label = props => {
   return (
-    <Label1
+    <div
       data-test-id={`${props['data-test-id'] || 'Label'}|`}
-      props={props}
       className="views-block"
     >
       <Text data-test-id={`Label.Text|`} props={props} className="views-block">
         {props.label}
       </Text>
       {props.children}
-    </Label1>
+    </div>
   );
 };
 
 Label.defaultProps = {
-  widthLabel: 120,
   color: '#323232',
   fontFamily: 'Montserrat',
-  fontSize: 10,
   fontWeight: 400,
   label: 'Label',
   textTransform: 'uppercase',
