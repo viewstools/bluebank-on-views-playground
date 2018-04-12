@@ -1,6 +1,6 @@
 Account Vertical
 marginTop < 0
-paddingLeft 10
+paddingLeft 30
 Vertical
 flexBasis auto
 flexGrow 1
