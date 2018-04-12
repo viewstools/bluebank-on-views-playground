@@ -37,7 +37,7 @@ LocationSvg
 width 30
 height 30
 marginTop 5
-marginRight 0
+marginRight 1
 
 Address Vertical
 flexBasis auto
