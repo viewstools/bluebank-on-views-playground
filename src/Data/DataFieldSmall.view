@@ -6,6 +6,6 @@ color #323232
 fontFamily Montserrat
 fontSize 10
 fontWeight 400
-textTransform uppercase
+textTransform < uppercase
 
 ValueSmall
