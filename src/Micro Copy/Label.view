@@ -1,5 +1,5 @@
 Label Vertical
-width 100
+width < 100
 Text
 color < #323232
 fontFamily < Montserrat
