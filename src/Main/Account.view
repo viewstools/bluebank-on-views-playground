@@ -1,5 +1,5 @@
 Account Vertical
-marginTop < 2
+marginTop < 20
 paddingLeft 30
 Vertical
 flexBasis auto
