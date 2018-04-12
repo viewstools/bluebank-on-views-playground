@@ -4,5 +4,5 @@ color < #323232
 fontFamily < Montserrat
 fontSize < 10
 fontWeight < 400
-text <labe Label
+text <label Label
 textTransform < uppercase
