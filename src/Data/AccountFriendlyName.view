@@ -3,4 +3,4 @@ alignItems baseline
 minHeight 20
 DataFieldSmall
 label Account Name
-value <accountFriendlyName m
+value <accountFriendlyName
