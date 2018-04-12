@@ -2,5 +2,5 @@ Id Horizontal
 alignItems baseline
 minHeight 20
 DataFieldSmall
-label Balance
+label I
 value <id 10000000001
