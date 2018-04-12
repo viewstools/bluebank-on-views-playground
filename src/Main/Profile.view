@@ -42,10 +42,6 @@ Address Vertical
 flexBasis auto
 flexGrow 1
 flexShrink 1
-ValueSmall
-value <postCode VT101
-marginLeft 5
-
 SectionName
 
 ValueSmall
@@ -56,6 +52,10 @@ marginLeft 0
 ValueSmall
 value <town Dublin
 marginLeft 0
+
+ValueSmall
+value <postCode VT101
+marginLeft 5
 
 
 
