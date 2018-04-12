@@ -1,4 +1,5 @@
 BBan Horizontal
 alignItems baseline
+minHeight 20
 DataFieldSmall
 label BBan
