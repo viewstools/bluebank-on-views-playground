@@ -44,6 +44,7 @@ ValueSmall
 value <address1 1 Views Tools Rd
 marginLeft 0
 color white
+marginTop 20
 
 ValueSmall
 value <town Dublin
