@@ -2,6 +2,9 @@ Profile Vertical
 paddingTop 30
 paddingLeft 30
 paddingRight 30
+ValueLarge
+value <familyName Winters
+
 Vertical
 alignItems center
 flexBasis auto
@@ -16,9 +19,6 @@ NameSurname Vertical
 flexBasis auto
 flexGrow 1
 flexShrink 1
-ValueLarge
-value <familyName Winters
-
 
 Text
 text <id 100000000001
