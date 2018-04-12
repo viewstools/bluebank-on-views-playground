@@ -2,4 +2,5 @@ App Vertical
 overflowY auto
 flexGrow 1
 flexShrink 1
+flexBasis
 Profile
