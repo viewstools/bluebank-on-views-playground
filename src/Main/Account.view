@@ -8,6 +8,8 @@ IBan
 
 AccountBalance
 
+AccountCurrency
+
 Text
 text <accountCurrency Euro
 
