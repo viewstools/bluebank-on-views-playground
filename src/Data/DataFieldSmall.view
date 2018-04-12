@@ -1,6 +1,6 @@
 DataFieldSmall Horizontal
 alignItems baseline
-marginTop 20
+marginTop 2
 Label
 label < Label
 color < #323232
