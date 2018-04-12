@@ -35,6 +35,8 @@ flexBasis auto
 flexGrow 1
 flexShrink 1
 justifyContent center
+LocationSvg
+
 Address Vertical
 flexBasis auto
 flexGrow 1
@@ -59,8 +61,6 @@ ValueSmall
 value <country Ireland
 marginLeft 0
 
-
-LocationSvg
 
 
 Vertical
