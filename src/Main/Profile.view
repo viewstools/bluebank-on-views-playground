@@ -36,7 +36,7 @@ flexShrink 1
 LocationSvg
 width 30
 height 30
-marginTop 5
+marginTop
 
 Address Vertical
 flexBasis auto
