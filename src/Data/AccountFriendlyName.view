@@ -1,0 +1,6 @@
+AccountFriendlyName Horizontal
+alignItems baseline
+minHeight 20
+DataFieldSmall
+label Balance
+value <accountBalance 2.000,00
