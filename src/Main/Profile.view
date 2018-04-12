@@ -21,8 +21,15 @@ Horizontal
 flexBasis auto
 flexGrow 1
 flexShrink 1
+Vertical
+alignItems center
+flexBasis auto
+flexGrow 1
+flexShrink 1
+justifyContent center
 ValueSmall
 value <address1 1 Views Tools Rd
+
 
 
 Text
