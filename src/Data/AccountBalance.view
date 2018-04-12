@@ -2,5 +2,5 @@ AccountBalance Horizontal
 alignItems baseline
 minHeight 20
 DataFieldSmall
-label accountBalance
+label AccountBalance
 value <accountBalance ULSBIE1111000011110000
