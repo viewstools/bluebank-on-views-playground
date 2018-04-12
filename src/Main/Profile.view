@@ -4,7 +4,7 @@ flexBasis auto
 flexGrow 1
 flexShrink 1
 backgroundColor #ffaa00
-paddingTop 3
+paddingTop 30
 ValueLarge
 value <givenName Summer
 marginLeft 0
