@@ -3,7 +3,7 @@ alignItems baseline
 Label
 label < Label
 color #323232
-fontFamily Montserrat
+fontFamily < Montserrat
 fontSize 10
 fontWeight < 400
 textTransform < uppercase
