@@ -37,6 +37,10 @@ ValueSmall
 value <postCode VT101
 marginLeft 0
 
+ValueSmall
+value <county VT101
+marginLeft 0
+
 
 
 Text
