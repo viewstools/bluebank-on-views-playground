@@ -1,7 +1,6 @@
 DataFieldSmall Horizontal
 alignItems center
 flexBasis auto
-flexShrink 1
 justifyContent center
 Label
 
