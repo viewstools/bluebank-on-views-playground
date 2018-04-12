@@ -3,4 +3,4 @@ alignItems baseline
 minHeight 20
 DataFieldSmall
 label Currency
-value <accountCurrency E
+value <accountCurrency Eur
