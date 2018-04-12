@@ -25,7 +25,7 @@ flexShrink 1
 Text
 text <id 100000000001
 fontFamily Montserrat
-fontSize 10
+fontSize 14
 color #c5c5c5
 
 CustomerDetails Vertical
