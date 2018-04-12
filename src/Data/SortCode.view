@@ -2,5 +2,5 @@ SortCode Horizontal
 alignItems baseline
 minHeight 20
 DataFieldSmall
-label Balance
+label sortCode
 value <sortCode 2.000,00
