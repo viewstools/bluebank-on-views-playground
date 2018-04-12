@@ -23,7 +23,7 @@ flexShrink 1
 LocationSvg
 width 30
 height 30
-fill whit
+fill white
 
 Address Vertical
 flexBasis auto
