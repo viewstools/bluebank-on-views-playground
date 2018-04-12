@@ -17,46 +17,6 @@ value <familyName Winters
 marginTop 0
 color #ffffff
 
-Horizontal
-flexBasis auto
-flexGrow 1
-flexShrink 1
-marginTop 30
-Address Vertical
-flexBasis auto
-flexGrow 1
-flexShrink 1
-marginLeft 10
-SectionName
-marginTop 17
-color white
-ValueSmall
-value <county Co. Dublin
-marginLeft 0
-
-
-ValueSmall
-value <address1 1 Views Tools Rd
-marginLeft 0
-color white
-marginTop 10
-
-ValueSmall
-value <town Dublin
-marginLeft 0
-color white
-
-ValueSmall
-value <postCode VT101
-marginLeft 0
-color white
-
-ValueSmall
-value <mobilePhone +353 555 000 555
-color white
-
-
-
 
 Vertical
 flexBasis auto
