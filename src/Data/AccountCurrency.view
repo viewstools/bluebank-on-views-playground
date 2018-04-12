@@ -2,5 +2,5 @@ AccountCurrency Horizontal
 alignItems baseline
 minHeight 20
 DataFieldSmall
-label accountCurrency
+label account Currency
 value <accountCurrency 2.000,00
