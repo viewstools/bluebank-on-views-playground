@@ -6,29 +6,6 @@ flexShrink 1
 backgroundColor #ffaa00
 paddingTop 30
 paddingLeft 30
-ValueLarge
-value <givenName Summer
-marginLeft 0
-color #ffffff
-
-ValueLarge
-value <familyName Winters
-marginTop 0
-color #ffffff
-
-
-Vertical
-flexBasis auto
-flexGrow 1
-flexShrink 1
-paddingTop 30
-paddingLeft 30
-paddingRight 30
-AddressSection Vertical
-flexBasis auto
-flexGrow 1
-flexShrink 1
-marginTop 40
 Horizontal
 flexBasis auto
 flexGrow 1
@@ -67,5 +44,28 @@ value <mobilePhone +353 555 000 555
 
 
 
+ValueLarge
+value <givenName Summer
+marginLeft 0
+color #ffffff
+
+ValueLarge
+value <familyName Winters
+marginTop 0
+color #ffffff
+
+
+Vertical
+flexBasis auto
+flexGrow 1
+flexShrink 1
+paddingTop 30
+paddingLeft 30
+paddingRight 30
+AddressSection Vertical
+flexBasis auto
+flexGrow 1
+flexShrink 1
+marginTop 40
 Account
 customerId <id id
