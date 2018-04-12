@@ -13,9 +13,6 @@ AccountCurrency
 AccountFriendlyName
 
 Text
-text <accountFriendlyName Daily
-
-Text
 text <accountNumber 555500005555
 
 Text
