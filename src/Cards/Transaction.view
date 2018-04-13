@@ -29,5 +29,7 @@ TransactionAmount
 AccountBalance
 
 
+TransactionCurrency
+
 Text
 text <transactionDescription Rent 04.2018
