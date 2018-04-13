@@ -2,6 +2,7 @@ TransactionAmount Horizontal
 alignItems baseline
 minHeight 20
 flexGrow 1
+flexShrink 1
 DataFieldSmall
 label Amount
 value <transactionAmount 1.000,00
