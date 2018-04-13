@@ -3,5 +3,5 @@ alignItems baseline
 minHeight 20
 DataFieldSmall
 label Amount
-value <transactionType XFR
+value <transactionAmount XFR
 marginTop 15
