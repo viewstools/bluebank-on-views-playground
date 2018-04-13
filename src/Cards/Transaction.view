@@ -6,7 +6,7 @@ shadowBlur 20
 shadowSpread 0
 shadowColor rgba(100,150,180,0.2)
 borderTopLeftRadius 10
-borderTopRightRadius 2
+borderTopRightRadius 1
 borderBottomLeftRadius 2
 borderBottomRightRadius 2
 Text
