@@ -4,4 +4,4 @@ minHeight 20
 DataFieldSmall
 label Balance
 value <accountBalance 2.000,00
-marginTop 150
+marginTop 15
