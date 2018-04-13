@@ -8,7 +8,6 @@ Profile
 
 Vertical
 flexGrow 1
-flexShrink 1
 alignItems center
 marginTop 30
 LogoViews
