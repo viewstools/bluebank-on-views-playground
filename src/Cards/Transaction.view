@@ -21,7 +21,6 @@ marginTop 0
 TransactionType
 
 Horizontal
-alignItems center
 flexBasis auto
 flexGrow 1
 flexShrink 1
