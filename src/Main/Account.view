@@ -32,7 +32,7 @@ AccountType
 Text
 color #323232
 fontFamily Montserrat
-fontSize 18
+fontSize 24
 fontWeight 400
 text Transactions
 marginTop 30
