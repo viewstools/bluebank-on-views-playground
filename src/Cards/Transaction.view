@@ -20,7 +20,7 @@ marginTop 0
 
 TransactionType
 
-Vertical
+Horizontal
 alignItems center
 flexBasis auto
 flexGrow 1
