@@ -20,6 +20,8 @@ marginTop 0
 
 TransactionType
 
+TransactionAmount
+
 Text
 text <transactionCurrency Euro
 
