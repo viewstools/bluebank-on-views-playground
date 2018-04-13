@@ -20,6 +20,8 @@ marginTop 0
 
 TransactionType
 
+TransactionDescription
+
 TransactionAmountBalance Horizontal
 flexGrow 1
 flexShrink 1
