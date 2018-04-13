@@ -4,4 +4,4 @@ minHeight 20
 DataFieldSmall
 label Type
 value <transactionType XFR
-marginTop 0
+marginTop 1
