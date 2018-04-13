@@ -35,7 +35,7 @@ fontFamily Montserrat
 fontSize 24
 fontWeight 300
 text Transactions
-marginTop 30
+marginTop 50
 
 Transactions
 accountId <id id
