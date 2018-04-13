@@ -23,6 +23,7 @@ TransactionType
 TransactionAmountBalance Horizontal
 flexGrow 1
 flexShrink 1
+flexBasis
 TransactionAmount
 
 AccountBalance
