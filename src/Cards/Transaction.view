@@ -19,6 +19,9 @@ TransactionDateTime
 marginTop 0
 
 Text
+text <transactionType Urgent (XFR)
+
+Text
 text <accountBalance 2.000,00
 
 Text
@@ -29,6 +32,3 @@ text <transactionCurrency Euro
 
 Text
 text <transactionDescription Rent 04.2018
-
-Text
-text <transactionType Urgent (XFR)
