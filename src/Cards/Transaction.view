@@ -11,6 +11,7 @@ borderBottomLeftRadius 10
 borderBottomRightRadius 10
 marginLeft 30
 marginRight 30
+paddingLeft 10
 TransactionDateTime
 
 Text
