@@ -9,6 +9,7 @@ borderTopLeftRadius 10
 borderTopRightRadius 10
 borderBottomLeftRadius 10
 borderBottomRightRadius 10
+marginLeft 10
 Text
 text <transactionDateTime 2017-06-18T09:00:00.000Z
 
