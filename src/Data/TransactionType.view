@@ -3,4 +3,4 @@ alignItems baseline
 minHeight 20
 DataFieldSmall
 label Type
-value <transactionType Trans
+value <transactionType Transf
