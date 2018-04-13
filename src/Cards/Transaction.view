@@ -14,6 +14,7 @@ marginRight 30
 paddingLeft 15
 paddingRight 15
 paddingBottom 15
+paddingTop 10
 TransactionDateTime
 marginTop 0
 
