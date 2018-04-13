@@ -2,9 +2,6 @@ Transaction Vertical
 backgroundColor blue
 marginTop 30
 Text
-text <id 100000000001
-
-Text
 text <accountBalance 2.000,00
 
 Text
