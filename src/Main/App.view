@@ -11,4 +11,5 @@ flexBasis auto
 flexGrow 1
 flexShrink 1
 alignItems center
+marginTop 10
 LogoViews
