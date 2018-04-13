@@ -2,7 +2,6 @@ ValueSmall Vertical
 Text
 color < #323232
 fontFamily Montserrat
-fontSize
 fontWeight 300
 text <value Data
 marginTop < 5
