@@ -3,4 +3,4 @@ alignItems baseline
 minHeight 20
 DataFieldSmall
 label Type
-value <transactionType Transfer (XFR)
+value <transactionType Transfer XFR)
