@@ -2,6 +2,6 @@ TransactionAmount Horizontal
 alignItems baseline
 minHeight 20
 DataFieldSmall
-label Amou
+label Amount
 value <transactionType XFR
 marginTop 15
