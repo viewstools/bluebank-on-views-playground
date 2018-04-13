@@ -1,0 +1,51 @@
+Footer Vertical
+alignItems center
+marginTop 60
+flexGrow 1
+Vertical
+alignItems center
+goTo https://docs.views.tools
+LogoViews
+width 40
+height 40
+
+Text
+color #dcdcdc
+fontFamily Montserrat
+fontSize 12
+fontWeight 400
+marginTop 10
+text Designed and built in Views.
+
+
+Horizontal
+alignItems center
+marginTop 20
+Text
+color #dcdcdc
+fontFamily Montserrat
+fontSize 12
+fontWeight 400
+text This project showcases a set of React helpers to connect with the BlueBank API for the
+
+Horizontal
+goTo http://www.bankofapis.com/schedule/
+Text
+color #dcdcdc
+fontFamily Montserrat
+fontSize 12
+fontWeight 400
+marginLeft 4
+text RBS #BankOfAPIs hackathon.
+
+
+
+Horizontal
+goTo https://github.com/viewstools/bluebank-on-views-playground
+Text
+color #dcdcdc
+fontFamily Montserrat
+fontSize 12
+fontWeight 400
+marginTop 4
+text Get the code on GitHub.

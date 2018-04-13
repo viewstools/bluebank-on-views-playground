@@ -5,15 +5,45 @@ Vertical
 flexBasis auto
 flexGrow 1
 flexShrink 1
+Horizontal
+onWhen <!fetching
+Horizontal
+onWhen <!id
+Label
+color #323232
+label The accounts details you're seeing below are not coming from the BlueBank API.
+textTransform none
+
+Horizontal
+goTo https://bb-customers.azurewebsites.net/BankAccounts
+Label
+marginLeft 4
+label Click here
+textTransform none
+
+
+Label
+color #323232
+marginRight 4
+label to setup an account.
+textTransform none
+
+
+
 CustomerID
+customerId <id
 
 BBan
+value <BBan
 
 IBan
+value <IBan
 
 AccountBalance
+accountBalance <
 
 AccountCurrency
+accountCurrency <
 
 
 Vertical
@@ -21,12 +51,16 @@ flexBasis auto
 flexGrow 1
 flexShrink 1
 AccountFriendlyName
+accountFriendlyName <
 
 AccountNumber
+accountNumber <
 
 SortCode
+sortCode <
 
 AccountType
+accounType <
 
 
 Text
@@ -38,4 +72,5 @@ text Transactions
 marginTop 50
 
 Transactions
-accountId <id id
+onWhen <id
+accountId <id

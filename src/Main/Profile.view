@@ -7,6 +7,40 @@ backgroundColor #ffaa00
 paddingTop 100
 paddingLeft 30
 paddingBottom 30
+Horizontal
+onWhen <!fetching
+Horizontal
+onWhen <error
+flexWrap wrap
+flexShrink 1
+Label
+color #323232
+label Your authorisation token isn't valid.
+textTransform none
+
+Label
+color #323232
+marginLeft 4
+label The profile details you're seeing below are not coming from the BlueBank API.
+textTransform none
+
+Horizontal
+goTo https://login.microsoftonline.com/bluebankb2c.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_BlueBankSUSI&client_Id=40957b9c-63bc-4ab4-9ecb-67b543c8e4ca&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fbb-customers.azurewebsites.net%2Fhome%2Fjwt%2F&scope=openid&response_type=id_token&prompt=login
+Label
+color #ffffff
+marginLeft 4
+label Click here to get a new one
+textTransform none
+
+
+Label
+color #323232
+marginLeft 4
+label and put it on src/Main/App.view.logic.js instead of userToken's original value.
+textTransform none
+
+
+
 ValueLarge
 value <givenName Summer
 marginLeft 0
@@ -51,4 +85,5 @@ color white
 
 
 Account
-customerId <id id
+onWhen <id
+customerId <id
