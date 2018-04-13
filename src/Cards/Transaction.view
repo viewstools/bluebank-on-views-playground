@@ -26,8 +26,6 @@ flexGrow 1
 flexShrink 1
 TransactionAmount
 
-TransactionType
-
 
 Text
 text <transactionCurrency Euro
