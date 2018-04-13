@@ -14,6 +14,8 @@ marginRight 30
 Text
 text <transactionDateTime 2017-06-18T09:00:00.000Z
 
+TransactionDateTime
+
 Text
 text <accountBalance 2.000,00
 
