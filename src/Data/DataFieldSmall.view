@@ -1,6 +1,5 @@
 DataFieldSmall Vertical
 alignItems baseline
-marginTop 10
 Label
 label < Label
 fontFamily < Montserrat
