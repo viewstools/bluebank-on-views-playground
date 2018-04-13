@@ -2,6 +2,7 @@ DataFieldSmall Vertical
 alignItems baseline
 flexGrow 1
 flexShrink 1
+flexBasis
 Label
 label < Label
 fontFamily < Montserrat
