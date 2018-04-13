@@ -5,6 +5,6 @@ flexGrow 1
 flexShrink 1
 flexBasis
 DataFieldSmall
-label Descr
+label Descri
 value <transactionAmount 1.000,00
 marginTop 15
