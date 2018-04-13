@@ -3,6 +3,7 @@ alignItems baseline
 minHeight 20
 flexShrink 1
 flexBasis
+flexGrow 1
 DataFieldSmall
 label Balance
 value <accountBalance 2.000,00
