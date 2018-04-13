@@ -6,4 +6,4 @@ fontWeight < 400
 text <label Label
 textTransform < uppercase
 fontSize 12
-marginTop < 15
+marginTop < 0
