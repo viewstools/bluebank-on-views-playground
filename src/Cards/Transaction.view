@@ -21,9 +21,6 @@ marginTop 0
 TransactionType
 
 Text
-text <accountBalance 2.000,00
-
-Text
 text <transactionAmount 1.000,00
 
 Text
