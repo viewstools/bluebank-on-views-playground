@@ -2,6 +2,7 @@ AccountBalance Horizontal
 alignItems baseline
 minHeight 20
 flexGrow 1
+flexShrink 1
 DataFieldSmall
 label Balance
 value <accountBalance 2.000,00
