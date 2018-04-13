@@ -5,6 +5,7 @@ shadowOffsetY 5
 shadowBlur 20
 shadowSpread 0
 shadowColor rgba(100,150,180,0.2)
+borderTopLeftRadius 2
 Text
 text <transactionDateTime 2017-06-18T09:00:00.000Z
 
