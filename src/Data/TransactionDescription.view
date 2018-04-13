@@ -6,5 +6,5 @@ flexShrink 1
 flexBasis
 DataFieldSmall
 label Description
-value <transactionDescription Rent
+value <transactionDescription Rent 
 marginTop 15
