@@ -30,7 +30,4 @@ AccountBalance
 
 
 Text
-text <transactionCurrency Euro
-
-Text
 text <transactionDescription Rent 04.2018
