@@ -1,5 +1,6 @@
 Transaction Vertical
 marginTop 30
+shadowOffsetX 0
 Text
 text <transactionDateTime 2017-06-18T09:00:00.000Z
 
