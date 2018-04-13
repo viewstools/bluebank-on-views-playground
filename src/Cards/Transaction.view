@@ -16,18 +16,24 @@ marginTop 15
 marginRight 30
 TransactionDateTime
 marginTop 0
+transactionDateTime <
 
 TransactionType
+transactionType <
 
 TransactionDescription
+transactionDescription <
 
 TransactionAmountBalance Horizontal
 flexGrow 1
 flexShrink 1
 flexBasis
 TransactionAmount
+transactionAmount <
 
 AccountBalance
+accountBalance <
 
 
 TransactionCurrency
+transactionCurrency <

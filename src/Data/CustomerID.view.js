@@ -19,7 +19,7 @@ const CustomerID = props => {
       <DataFieldSmall
         data-test-id={`CustomerID.DataFieldSmall|`}
         label="Customer ID"
-        value={props.customerID}
+        value={props.customerId}
         className="views-block"
       />
       {props.children}
@@ -27,5 +27,5 @@ const CustomerID = props => {
   );
 };
 
-CustomerID.defaultProps = { customerID: 1000000000001 };
+CustomerID.defaultProps = { customerId: 1000000000001 };
 export default CustomerID;

@@ -2,23 +2,8 @@ App Vertical
 overflowY auto
 flexGrow 1
 flexShrink 1
-flexBasis
+flexBasis auto
 paddingBottom 80
 Profile
 
-Vertical
-flexGrow 1
-alignItems center
-marginTop 60
-marginBottom 10
-LogoViews
-width 40
-height 40
-
-Text
-color #dcdcdc
-fontFamily Montserrat
-fontSize 12
-fontWeight 400
-text Designed and build in Views
-marginTop 10
+Footer
