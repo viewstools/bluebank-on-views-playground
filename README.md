@@ -7,6 +7,9 @@ You can try it live [here](https://bluebank-on-views-playground.surge.sh).
 
 The BlueBank API wrapper is on [src/BlueBank.js](src/BlueBank.js).
 
+![screenshot](screenshot1.png)
+![screenshot](screenshot2.png)
+
 ## Using it locally
 1. Clone the GitHub repository
 
