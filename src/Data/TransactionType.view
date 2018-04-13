@@ -2,5 +2,5 @@ TransactionType Horizontal
 alignItems baseline
 minHeight 20
 DataFieldSmall
-label Typ
+label Type
 value <accountBalance 2.000,00
