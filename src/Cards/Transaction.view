@@ -18,6 +18,8 @@ paddingTop 10
 TransactionDateTime
 marginTop 0
 
+TransactionType
+
 Text
 text <accountBalance 2.000,00
 
