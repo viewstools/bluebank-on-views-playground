@@ -2,7 +2,7 @@ AccountBalance Horizontal
 alignItems baseline
 minHeight 20
 flexShrink 1
-flexBasis
+flexBasis auto
 flexGrow 1
 DataFieldSmall
 label Balance

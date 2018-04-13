@@ -8,7 +8,6 @@ import AccountType from '../Data/AccountType.view.js';
 import BBan from '../Data/BBan.view.js';
 import CustomerID from '../Data/CustomerID.view.js';
 import IBan from '../Data/IBan.view.js';
-import Id from '../Data/Id.view.js';
 import SortCode from '../Data/SortCode.view.js';
 import Transactions from './Transactions.view.logic';
 
@@ -66,7 +65,6 @@ const Account = props => {
           data-test-id={`Account.AccountType|`}
           className="views-block"
         />
-        <Id data-test-id={`Account.Id|`} className="views-block" />
       </div>
       <Transactions
         data-test-id={`Account.Transactions|`}

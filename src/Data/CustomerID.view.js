@@ -18,7 +18,7 @@ const CustomerID = props => {
     >
       <DataFieldSmall
         data-test-id={`CustomerID.DataFieldSmall|`}
-        label="CustomerID"
+        label="Customer ID"
         value={props.customerID}
         className="views-block"
       />

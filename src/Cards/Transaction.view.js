@@ -3,19 +3,16 @@ import React from 'react';
 
 import { css } from 'react-emotion';
 
-const Transaction_h11zo8f0 = css({
-  backgroundColor: 'blue',
-  marginTop: 30,
-});
+const Transaction_h148gl4w = css({ marginTop: 30 });
 
 const Transaction = props => {
   return (
     <div
       data-test-id={`${props['data-test-id'] || 'Transaction'}|`}
-      className={`views-block ${Transaction_h11zo8f0}`}
+      className={`views-block ${Transaction_h148gl4w}`}
     >
       <span data-test-id={`Transaction.Text|`} className="views-block">
-        {props.id}
+        {props.transactionDateTime}
       </span>
       <span data-test-id={`Transaction.Text:1|`} className="views-block">
         {props.accountBalance}
@@ -27,12 +24,9 @@ const Transaction = props => {
         {props.transactionCurrency}
       </span>
       <span data-test-id={`Transaction.Text:4|`} className="views-block">
-        {props.transactionDateTime}
-      </span>
-      <span data-test-id={`Transaction.Text:5|`} className="views-block">
         {props.transactionDescription}
       </span>
-      <span data-test-id={`Transaction.Text:6|`} className="views-block">
+      <span data-test-id={`Transaction.Text:5|`} className="views-block">
         {props.transactionType}
       </span>
       {props.children}
@@ -41,11 +35,10 @@ const Transaction = props => {
 };
 
 Transaction.defaultProps = {
-  id: 100000000001,
+  transactionDateTime: '2017-06-18T09:00:00.000Z',
   accountBalance: '2.000,00',
   transactionAmount: '1.000,00',
   transactionCurrency: 'Euro',
-  transactionDateTime: '2017-06-18T09:00:00.000Z',
   transactionDescription: 'Rent 04.2018',
   transactionType: 'Urgent (XFR)',
 };
