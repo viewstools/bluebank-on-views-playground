@@ -19,9 +19,6 @@ TransactionDateTime
 marginTop 0
 
 Text
-text <transactionType Urgent (XFR)
-
-Text
 text <accountBalance 2.000,00
 
 Text
