@@ -3,6 +3,7 @@ alignItems baseline
 minHeight 20
 flexGrow 1
 flexShrink 1
+flexBasis
 DataFieldSmall
 label Amount
 value <transactionAmount 1.000,00
