@@ -3,4 +3,4 @@ alignItems baseline
 minHeight 20
 DataFieldSmall
 label transactionDateTime
-value <accountBalance 2017-06-18T09:00:00.000Z
+value <transactionDateTime 2017-06-18T09:00:00.000Z
