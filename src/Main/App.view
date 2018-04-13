@@ -7,7 +7,6 @@ paddingBottom 80
 Profile
 
 Vertical
-flexBasis auto
 flexGrow 1
 flexShrink 1
 alignItems center
