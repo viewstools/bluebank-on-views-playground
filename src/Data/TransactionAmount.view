@@ -3,5 +3,5 @@ alignItems baseline
 minHeight 20
 DataFieldSmall
 label Amount
-value <transactionAmount 1.00
+value <transactionAmount 1.000
 marginTop 15
