@@ -29,12 +29,12 @@ SortCode
 AccountType
 
 
-Transactions
-accountId <id id
-
 Text
 color #323232
 fontFamily Montserrat
 fontSize 18
 fontWeight 400
 text Transactions
+
+Transactions
+accountId <id id
