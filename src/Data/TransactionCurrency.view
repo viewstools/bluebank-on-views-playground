@@ -6,5 +6,5 @@ flexShrink 1
 flexBasis
 DataFieldSmall
 label Currency
-value <transactionCurrency 1.000,00
+value <transactionCurrency W
 marginTop 15
