@@ -15,6 +15,7 @@ paddingLeft 15
 paddingRight 15
 paddingBottom 15
 TransactionDateTime
+marginTop 15
 
 Text
 text <accountBalance 2.000,00
