@@ -21,9 +21,6 @@ marginTop 0
 TransactionType
 
 Text
-text <transactionAmount 1.000,00
-
-Text
 text <transactionCurrency Euro
 
 Text
