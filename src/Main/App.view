@@ -10,6 +10,7 @@ Vertical
 flexGrow 1
 alignItems center
 marginTop 30
+marginBottom 10
 LogoViews
 width 40
 height 40
