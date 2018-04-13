@@ -1,5 +1,4 @@
 Transaction Vertical
-backgroundColor blue
 marginTop 30
 Text
 text <transactionDateTime 2017-06-18T09:00:00.000Z
