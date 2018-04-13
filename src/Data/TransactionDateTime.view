@@ -2,5 +2,5 @@ TransactionDateTime Horizontal
 alignItems baseline
 minHeight 20
 DataFieldSmall
-label Proces
+label Process
 value <transactionDateTime 2017-06-18T09:00:00.000Z
