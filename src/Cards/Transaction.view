@@ -5,7 +5,7 @@ shadowOffsetY 5
 shadowBlur 20
 shadowSpread 0
 shadowColor rgba(100,150,180,0.2)
-borderTopLeftRadius 2
+borderTopLeftRadius 10
 borderTopRightRadius 2
 borderBottomLeftRadius 2
 borderBottomRightRadius 2
