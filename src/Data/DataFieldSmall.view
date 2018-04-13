@@ -5,7 +5,7 @@ label < Label
 fontFamily < Montserrat
 fontWeight < 400
 textTransform < uppercase
-marginTop < 1
+marginTop <
 
 ValueSmall
 color < #323232
